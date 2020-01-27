@@ -7,18 +7,20 @@
       h1 {
         max-width: 80vw;
        font-family: sans-serif;
-       color: black;
+       font-size: 10vw;
+      }
+      #userName {
+        color: red;
       }
     </style>
   </head>
   <body>
     <h1>
-      Сайт сделан спешал фор ю, <span id='username'></span>
+      Сайт сделан спешал фор ю, <span id='userName'></span>
     </h1>
-
     <script>
-      let name = prompt("Как тебя зовут")
-
+      let name = prompt ("Как тебя зовут")
+      document.getElementById('userName').textContent = name 
     </script>
   </body>
 </html>
