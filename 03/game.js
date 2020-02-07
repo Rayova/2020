@@ -1,9 +1,9 @@
 console.log('hallo')
 // координаты
-let location1 = 5
-let location2 = 6
-let location3 = 7
-
+let location1 = Math.floor(Math.random() * 5)
+let location2 = location1 + 1
+let location3 = location2 + 1
+// alert(location1);
 let currentShot
 
 let shots = 0
@@ -24,7 +24,8 @@ while (isSunk === false) {
      hits += 1
    }
     if (currentShot === location1 || currentShot === location2 || currentShot === location3) {
-      alert('Попадание!')
+      // alert('Попадание!')
+      shots += 1
     } else {
       alert('Промах!')
     }
