@@ -23,12 +23,22 @@ while (isSunk === false) {
    if (currentShot === location1 || currentShot === location2 || currentShot === location3) {
      hits += 1
    }
-
-   if (hits === 3) {
-     alert('Победа!')
-     isSunk = true
+    if (currentShot === location1 || currentShot === location2 || currentShot === location3) {
+      alert('Попадание!')
+    } else {
+      alert('Промах!')
     }
+    if (hits === 3) {
+      alert('Победа!')
+      isSunk = true
+     }
+
+
+
    }
+
+
+
    // Спаршиваю координату выстрела у игрока
    // пишем цикл который работает пока корабль не утонул
    // утонул ли корабль
