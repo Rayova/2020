@@ -1,6 +1,6 @@
 console.log('hallo')
 // координаты
-let location1 = Math.floor(Math.random() * 5)
+let location1 = Math.floor(Math.random() * 9)
 let location2 = location1 + 1
 let location3 = location2 + 1
 // alert(location1);
