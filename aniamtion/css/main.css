@@ -1,6 +1,8 @@
 anime ({
   targets: '.box',
   translateX: 300
+  autoplay: false
   })
 
-  @import "";
+  let targsBtn01 = document.getelementById('targsBtn01')
+  targsBtn01.onclick = targs01.play
