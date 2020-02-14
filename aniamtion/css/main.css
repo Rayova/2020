@@ -2,3 +2,5 @@ anime ({
   targets: '.box',
   translateX: 300
   })
+
+  @import "";
