@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>основы</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/js/main.js">
+    <link rel="stylesheet" href="/js/anome.min.js">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<main>
+  <h1>basics Anime.js</h1>
+
+  <section class="targs"
+    <h2>Targets</h2>
+    <a href="https://animejs.com/documentation//cssSelector" target='_blank'>
+    look doki</a>
+    <div class="box"></div>
+  </section>
+</main>
+  </body>
+</html>
